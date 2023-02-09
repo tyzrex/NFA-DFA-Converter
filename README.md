@@ -50,7 +50,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## How it works
 
-The NFA to DFA Converter program works by taking a Non-Deterministic Finite Automata (NFA) as input and converting it into an equivalent Deterministic Finite Automata (DFA). The conversion process involves creating a state transition table for the DFA, which is based on the state transition rules of the NFA.
+The NFA to DFA Converter program works by taking a Non-Deterministic Finite Automata (NFA) as input and converting it into an equivalent Deterministic Finite Automata (DFA). The conversion process involves creating a state transition table for the DFA, which is based on the state transition rules of the NFA. To see how the inputs are taken you can refer to the Sample Inputs and Output [docs](https://github.com/tyzrex/NFA-DFA-Converter/tree/main/Samples)
 
 The program takes the following user inputs:
 
