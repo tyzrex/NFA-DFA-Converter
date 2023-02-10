@@ -7,16 +7,16 @@ def get_nfa_from_user():
     states = input("Enter the states separated by space: ").split()
     num_symbols = int(input("Enter the number of symbols in the NFA: "))
     symbols = input("Enter the symbols separated by space: ").split()
-    start_state = input("Enter the start state in the NFA: ")
+    start_state = input("\nEnter the start state in the NFA: ")
     final_states = input("Enter the final states separated by space: ").split()
     nfa = {}
     
     for i in range(num_states):
-        state = input("Enter the state: ")
+        state = input("\nEnter the state: ")
         nfa[state] = {}
         
         for j in range(num_symbols):
-            path = input("Enter the path: ")
+            path = input("\nEnter the path: ")
             print("Enter end state from state {} traveling through path {}: ".format(state, path))
             reaching_state = input().split()
             nfa[state][path] = reaching_state
