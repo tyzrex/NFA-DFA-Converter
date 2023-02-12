@@ -1,7 +1,6 @@
-
 # NFA to DFA Converter
 
-A python program to convert Non-deterministic Finite Automata (NFA) to Deterministic Finite Automata (DFA) and visualize the NFA and DFA using Graphviz library. 
+A python program to convert Non-deterministic Finite Automata (NFA) to Deterministic Finite Automata (DFA) and visualize the NFA and DFA using Graphviz library.
 
 ## Features
 
@@ -21,7 +20,7 @@ These instructions will get you a copy of the project up and running on your loc
 * Graphviz
 * Itertools
 
-## Installing 
+## Installing
 
 1. Clone the directory
 
@@ -78,4 +77,4 @@ We welcome contributions from the community. If you'd like to contribute, please
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](https://chat.openai.com/chat/LICENSE.md) file for details.
+This project is licensed under the **WTFPL** License - see the [LICENSE.md](https://chat.openai.com/chat/LICENSE.md) file for details.
